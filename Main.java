@@ -7,8 +7,14 @@ public class Main {
         map.put("banana", 2);
         map.put("grape", 3);
 
+
         System.out.println(map.get("banana")); 
         map.remove("banana");
         System.out.println(map.get("banana")); 
+
+        System.out.println(map.get("banana")); // 2
+        map.remove("banana");
+        System.out.println(map.get("banana")); // null
+
     }
 }
